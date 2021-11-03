@@ -1,0 +1,59 @@
+/* 
+ All of these style rules are applied only for demonstration purpose!
+ Not the best style so please ignore the look and feel if it looks bad!
+  */
+
+.red {
+  color: #f44336;
+  font-size: 2em;
+}
+
+.blue {
+  color: #2196f3;
+  font-style: italic;
+  font-size: 3em;
+}
+.green {
+  color: #4caf50;
+  font-weight: bolder;
+  font-size: 4em;
+}
+.purple {
+  color: #9c27b0;
+  font-weight: 800;
+}
+.orange {
+  color: #ff9800;
+  font-style: oblique;
+}
+.pink {
+  color: #e91e63;
+  font-size: large;
+}
+
+.one {
+  font-size: 2em;
+}
+.two {
+  font-size: 3em;
+  font-style: italic;
+}
+.three {
+  font-size: 4em;
+  font-weight: bolder;
+}
+.middle {
+  font-size: 5em;
+  color: #ff9800;
+}
+.last {
+  font-size: 6em;
+  color: #4caf50;
+}
+
+/* 
+If you came so far below that means you already went through them all, 
+I really hope this clarifed some of your confusion, if still not, please feel free to send me a message as a comment
+I am happy to discuss more until your confusion is resolved!
+Thank you so much for checking on my channel, good luck and happy learning!
+ */

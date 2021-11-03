@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Span Tag Example</title>
+    <meta name="description" content="Lean Span Tag" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+            1.The HTML <span> tag is really powerful when it comes to apply different style
+            on some part of your text content marked up with a single element.
+            And when you have multiple span tags, you need to apply different class names
+            in order to be able to select them in the stylesheet.
+            2. Following are the most common and practical example on using <span> tag to apply different style
+               to some part of your text content
+        -->
+
+    <header>
+      <!--
+            1. This will wrap the word 'Span' with span tag and apply class name 'red'.
+            2. Now we can apply different style to only this word 'Span' in this title
+            3. We can select it with its class name: red in the stylesheet and apply different style rules
+            4. Check the css codes in the style.css file
+        -->
+      <h1><span class="red">Span</span> Tag Example</h1>
+    </header>
+    <main>
+      <h2>What is Lorem Ipsum?</h2>
+      <!--
+            1. This will wrap five different words in this paragraph using <span> tag.
+            2. And apply different class name to each, such as: blue, green, purple, orange, pink
+            3. Now we can select each span tag with its class name and apply different style to each word in it
+            4. Check the css codes in the style.css file
+        -->
+      <p>
+        Lorem Ipsum is <span class="blue">simply</span> dummy text of the
+        printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a
+        <span class="green">galley</span> of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also
+        the leap into electronic typesetting, remaining essentially unchanged.
+        It was <span class="purple">popularised</span> in the
+        <span class="orange">1960s</span> with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like
+        <span class="pink">Aldus PageMaker</span> including versions of Lorem
+        Ipsum.
+      </p>
+
+      <!--
+            1. Sometime you can even select one or more characters of the word and apply different style to it 
+            2. This will wrap one or more character in each word with span tag
+            3. And apply different class name to each, such as: one, two, three, middle, last
+            4. Now we can select each span tag with its class name and apply different style to characters in it
+            4. Check the css codes in the style.css file
+        -->
+      <p>
+        <span class="one">L</span>orem <span class="two">ip</span>sum <span class="three">dol</span>or
+        s<span class="middle">i</span class="last">t ame<span>t</span>.
+      </p>
+    </main>
+
+    <!--
+        If you came so far below that means you already went through them all, 
+        I really hope this clarifed some of your confusion, if still not, please feel free to send me a message as a comment
+        I am happy to discuss more until your confusion is resolved!
+        Thank you so much for checking on my channel, good luck and happy learning!
+    -->
+  </body>
+</html>
